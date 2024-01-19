@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Header(){
     return(
-       <div className='w-full shadow-lg p-4 flex justify-between items-center'>
+       <div className='w-full shadow-lg p-4 flex justify-between items-center bg-zinc-950/50 backdrop-blur-xl top-0 left-0'>
             <Link href="/" className="flex items-center text-2xl font-bold">
                 <Send className='mr-2' />
                 FakBork | 
